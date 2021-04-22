@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-smarthouse-dev-230521-authRole",
+      "UnauthRoleArn": "arn:aws:iam::860236296628:role/amplify-smarthouse-dev-230521-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::860236296628:role/amplify-smarthouse-dev-230521-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-smarthouse-dev-230521-deployment",
+      "UnauthRoleName": "amplify-smarthouse-dev-230521-unauthRole",
+      "StackName": "amplify-smarthouse-dev-230521",
+      "StackId": "arn:aws:cloudformation:eu-west-1:860236296628:stack/amplify-smarthouse-dev-230521/2fb061d0-a092-11eb-a846-06537280f127",
+      "AmplifyAppId": "d5mdoqopzl675"
+    },
+    "categories": {
+      "auth": {
+        "smarthouse1014b690": {}
+      }
+    }
+  }
+}

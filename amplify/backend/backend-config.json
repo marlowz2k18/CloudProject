@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "smarthouse1014b690": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
