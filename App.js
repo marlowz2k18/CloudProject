@@ -7,7 +7,7 @@ import Amplify from 'aws-amplify';
 import {withAuthenticator} from 'aws-amplify-react-native';
 import awsconfig from './src/aws-exports';
 import HomeScreen from './Screen/HomeScreen';
-import DrawerNavigationScreen from './Screen/DrawbarNavigationScreen';
+import DrawbarNavigationScreen from './Screen/DrawbarNavigationScreen';
 //import ChartScreen from './Screen/ChartScreen';
 
 Amplify.configure(awsconfig)
@@ -19,7 +19,7 @@ const App: () => React$Node =() => {
       <NavigationContainer>
           <Stack.Navigator initialRouteName="SmartHome">
             <Stack.Screen name="DrawerNavigationScreen"
-              component={DrawerNavigationScreen}
+              component={DrawbarNavigationScreen}
               options={{headerShown: false}}
               />
         </Stack.Navigator>
